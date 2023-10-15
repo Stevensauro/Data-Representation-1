@@ -1,0 +1,8 @@
+:root{
+    --barPercentage-100: 1; /* var for percentage (value 1 = 100% of the graph bar)*/
+}
+
+.percentage-100{
+    transform-origin: left top;
+    transform: translateY(-0.25%) scaleX(var(--barPercentage-100));
+}
