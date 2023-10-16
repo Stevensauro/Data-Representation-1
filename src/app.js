@@ -183,7 +183,6 @@ function createPercentageProperty(percentage, tdElement){
     for(const rule of style.cssRules){
         if(rule.selectorText === ":root"){
             rule.style.setProperty(`--barPercentage-${percentageStr}`, `${percentage/100}`)
-            console.log(rule.style)
         }
     }
 
